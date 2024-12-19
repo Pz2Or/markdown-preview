@@ -29,7 +29,7 @@ export default function MarkdownPreviewer() {
                 Markdown Previewer
             </h1>
             <div className="flex flex-col lg:flex-row gap-6">
-                <Card className="flex-1 p-4 shadow-sm">
+                <Card className="flex-1 p-4">
                     <h2 className="text-lg font-medium text-gray-700 mb-2">
                         Input
                     </h2>
@@ -40,7 +40,7 @@ export default function MarkdownPreviewer() {
                         placeholder="Type your Markdown here..."
                     />
                 </Card>
-                <Card className="flex-1 p-4 shadow-sm">
+                <Card className="flex-1 p-4">
                     <h2 className="text-lg font-medium text-gray-700 mb-2">
                         Preview
                     </h2>
